@@ -16,3 +16,9 @@ def historgram(dataset):
 def scatter_matrix(dataset):
     scatter_matrix(dataset)
     pyplot.show()
+
+
+def box_results(results, names):
+    pyplot.boxplot(results, labels=names)
+    pyplot.title('Algorithm Comparison')
+    pyplot.show()
